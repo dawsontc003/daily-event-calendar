@@ -10,3 +10,5 @@ console.log(typeof currentDate);
 // Hour block display must be color coded to define past, present, and future blocks
 // Any event saved in a time block must be stored in local storage
 // When page is refreshed event data is not lost
+
+//look into template literals..
