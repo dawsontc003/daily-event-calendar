@@ -13,11 +13,10 @@ $("#9amSave").on("click", function () {
   var storeEventTime = "9AM";
   document.getElementById("9amTask").innerHTML = storeEvent;
   console.log(storeEvent);
-  localStorage.setItem("Task1", storeEvent);
-  localStorage.setItem("Time", storeEventTime);
+  localStorage.setItem("9AM", storeEvent);
 });
 // Local storage retrieval for 9am tasks
-document.getElementById("9amTask").innerHTML = localStorage.getItem("Task1");
+document.getElementById("9amTask").innerHTML = localStorage.getItem("9AM");
 
 // past, present, future, color coordination for 9am
 if (timeOfDay > 9) {
@@ -38,11 +37,10 @@ $("#10amSave").on("click", function () {
   var storeEventTime = "10AM";
   document.getElementById("10amTask").innerHTML = storeEvent;
   console.log(storeEvent);
-  localStorage.setItem("Task2", storeEvent);
-  localStorage.setItem("Time2", storeEventTime);
+  localStorage.setItem("10AM", storeEvent);
 });
 // Local storage retrieval for 10am tasks
-document.getElementById("10amTask").innerHTML = localStorage.getItem("Task2");
+document.getElementById("10amTask").innerHTML = localStorage.getItem("10AM");
 
 // past, present, future, color coordination for 10am
 if (timeOfDay > 10) {
@@ -63,11 +61,10 @@ $("#11amSave").on("click", function () {
   var storeEventTime = "11AM";
   document.getElementById("11amTask").innerHTML = storeEvent;
   console.log(storeEvent);
-  localStorage.setItem("Task3", storeEvent);
-  localStorage.setItem("Time3", storeEventTime);
+  localStorage.setItem("11AM", storeEvent);
 });
 // Local storage retrieval for 11am tasks
-document.getElementById("11amTask").innerHTML = localStorage.getItem("Task3");
+document.getElementById("11amTask").innerHTML = localStorage.getItem("11AM");
 
 // past, present, future, color coordination for 11am
 if (timeOfDay > 11) {
@@ -88,11 +85,10 @@ $("#12pmSave").on("click", function () {
   var storeEventTime = "12PM";
   document.getElementById("12pmTask").innerHTML = storeEvent;
   console.log(storeEvent);
-  localStorage.setItem("Task4", storeEvent);
-  localStorage.setItem("Time4", storeEventTime);
+  localStorage.setItem("12PM", storeEvent);
 });
 // Local storage retrieval for 12pm tasks
-document.getElementById("12pmTask").innerHTML = localStorage.getItem("Task4");
+document.getElementById("12pmTask").innerHTML = localStorage.getItem("12PM");
 
 // past, present, future, color coordination for 12pm
 if (timeOfDay > 12) {
@@ -113,11 +109,10 @@ $("#1pmSave").on("click", function () {
   var storeEventTime = "1PM";
   document.getElementById("1pmTask").innerHTML = storeEvent;
   console.log(storeEvent);
-  localStorage.setItem("Task5", storeEvent);
-  localStorage.setItem("Time5", storeEventTime);
+  localStorage.setItem("1PM", storeEvent);
 });
 // Local storage retrieval for 1pm tasks
-document.getElementById("1pmTask").innerHTML = localStorage.getItem("Task5");
+document.getElementById("1pmTask").innerHTML = localStorage.getItem("1PM");
 
 // past, present, future, color coordination for 1pm
 if (timeOfDay > 13) {
@@ -138,11 +133,10 @@ $("#2pmSave").on("click", function () {
   var storeEventTime = "2PM";
   document.getElementById("2pmTask").innerHTML = storeEvent;
   console.log(storeEvent);
-  localStorage.setItem("Task6", storeEvent);
-  localStorage.setItem("Time6", storeEventTime);
+  localStorage.setItem("2PM", storeEvent);
 });
 // Local storage retrieval for 2pm tasks
-document.getElementById("2pmTask").innerHTML = localStorage.getItem("Task6");
+document.getElementById("2pmTask").innerHTML = localStorage.getItem("2PM");
 
 // past, present, future, color coordination for 2pm
 if (timeOfDay > 14) {
@@ -163,11 +157,10 @@ $("#3pmSave").on("click", function () {
   var storeEventTime = "3PM";
   document.getElementById("3pmTask").innerHTML = storeEvent;
   console.log(storeEvent);
-  localStorage.setItem("Task7", storeEvent);
-  localStorage.setItem("Time7", storeEventTime);
+  localStorage.setItem("3PM", storeEvent);
 });
 // Local storage retrieval for 3pm tasks
-document.getElementById("3pmTask").innerHTML = localStorage.getItem("Task7");
+document.getElementById("3pmTask").innerHTML = localStorage.getItem("3PM");
 
 // past, present, future, color coordination for 3pm
 if (timeOfDay > 15) {
@@ -188,11 +181,10 @@ $("#4pmSave").on("click", function () {
   var storeEventTime = "4PM";
   document.getElementById("4pmTask").innerHTML = storeEvent;
   console.log(storeEvent);
-  localStorage.setItem("Task8", storeEvent);
-  localStorage.setItem("Time8", storeEventTime);
+  localStorage.setItem("4PM", storeEvent);
 });
 // Local storage retrieval for 4pm tasks
-document.getElementById("4pmTask").innerHTML = localStorage.getItem("Task8");
+document.getElementById("4pmTask").innerHTML = localStorage.getItem("4PM");
 
 // past, present, future, color coordination for 4pm
 if (timeOfDay > 16) {
@@ -212,11 +204,10 @@ $("#5pmSave").on("click", function () {
   var storeEvent = document.getElementById("5pmTask").value;
   var storeEventTime = "5PM";
   document.getElementById("5pmTask").innerHTML = storeEvent;
-  localStorage.setItem("Task9", storeEvent);
-  localStorage.setItem("Time9", storeEventTime);
+  localStorage.setItem("5PM", storeEvent);
 });
 // local storage retrieval for 5pm tasks
-document.getElementById("5pmTask").innerHTML = localStorage.getItem("Task9");
+document.getElementById("5pmTask").innerHTML = localStorage.getItem("5PM");
 
 // past, present, future, color coordination for 4pm
 if (timeOfDay > 17) {
