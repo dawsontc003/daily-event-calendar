@@ -131,3 +131,102 @@ if (timeOfDay < 13) {
   var color = document.getElementById("1pmTask");
   color.classList.add("future");
 }
+
+// Click listener event for 2pm time slot
+$("#2pmSave").on("click", function () {
+  var storeEvent = document.getElementById("2pmTask").value;
+  var storeEventTime = "2PM";
+  document.getElementById("2pmTask").innerHTML = storeEvent;
+  console.log(storeEvent);
+  localStorage.setItem("Task6", storeEvent);
+  localStorage.setItem("Time6", storeEventTime);
+});
+// Local storage retrieval for 2pm tasks
+document.getElementById("2pmTask").innerHTML = localStorage.getItem("Task6");
+
+// past, present, future, color coordination for 2pm
+if (timeOfDay > 14) {
+  var color = document.getElementById("2pmTask");
+  color.classList.add("past");
+} else if (timeOfDay == 14) {
+  var color = document.getElementById("2pmTask");
+  color.classList.add("present");
+}
+if (timeOfDay < 14) {
+  var color = document.getElementById("2pmTask");
+  color.classList.add("future");
+}
+
+// Click listener event for 3pm time slot
+$("#3pmSave").on("click", function () {
+  var storeEvent = document.getElementById("3pmTask").value;
+  var storeEventTime = "3PM";
+  document.getElementById("3pmTask").innerHTML = storeEvent;
+  console.log(storeEvent);
+  localStorage.setItem("Task7", storeEvent);
+  localStorage.setItem("Time7", storeEventTime);
+});
+// Local storage retrieval for 3pm tasks
+document.getElementById("3pmTask").innerHTML = localStorage.getItem("Task7");
+
+// past, present, future, color coordination for 3pm
+if (timeOfDay > 15) {
+  var color = document.getElementById("3pmTask");
+  color.classList.add("past");
+} else if (timeOfDay == 15) {
+  var color = document.getElementById("3pmTask");
+  color.classList.add("present");
+}
+if (timeOfDay < 15) {
+  var color = document.getElementById("3pmTask");
+  color.classList.add("future");
+}
+
+// Click listener event for 4pm time slot
+$("#4pmSave").on("click", function () {
+  var storeEvent = document.getElementById("4pmTask").value;
+  var storeEventTime = "4PM";
+  document.getElementById("4pmTask").innerHTML = storeEvent;
+  console.log(storeEvent);
+  localStorage.setItem("Task8", storeEvent);
+  localStorage.setItem("Time8", storeEventTime);
+});
+// Local storage retrieval for 4pm tasks
+document.getElementById("4pmTask").innerHTML = localStorage.getItem("Task8");
+
+// past, present, future, color coordination for 4pm
+if (timeOfDay > 16) {
+  var color = document.getElementById("4pmTask");
+  color.classList.add("past");
+} else if (timeOfDay == 16) {
+  var color = document.getElementById("4pmTask");
+  color.classList.add("present");
+}
+if (timeOfDay < 16) {
+  var color = document.getElementById("4pmTask");
+  color.classList.add("future");
+}
+
+// CLick listener event for 5pm time slot
+$("#5pmSave").on("click", function () {
+  var storeEvent = document.getElementById("5pmTask").value;
+  var storeEventTime = "5PM";
+  document.getElementById("5pmTask").innerHTML = storeEvent;
+  localStorage.setItem("Task9", storeEvent);
+  localStorage.setItem("Time9", storeEventTime);
+});
+// local storage retrieval for 5pm tasks
+document.getElementById("5pmTask").innerHTML = localStorage.getItem("Task9");
+
+// past, present, future, color coordination for 4pm
+if (timeOfDay > 17) {
+  var color = document.getElementById("5pmTask");
+  color.classList.add("past");
+} else if (timeOfDay == 17) {
+  var color = document.getElementById("5pmTask");
+  color.classList.add("present");
+}
+if (timeOfDay < 17) {
+  var color = document.getElementById("5pmTask");
+  color.classList.add("future");
+}
